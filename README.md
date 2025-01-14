@@ -108,3 +108,7 @@ Inside opencv_fun_projects folder contains some cpp files that serves an educati
 Human eyes are more sensitive to luminance than to chrominance. This project demonstrates how the majority of visual information we care about is contained in the luminance channel (Y) by displaying the Y, Cb, and Cr channels separately alongside the RGB video. This highlights an important principle behind JPEG compression: most of the significant data comes from the luminance channel, which is retained and transformed into Discrete Cosine Transform (DCT) coefficients. Meanwhile, the chrominance channels (Cb and Cr) are often downsampled to reduce the data size, exploiting the fact that the human eye is less sensitive to color differences.
 
 
+### classical_haar_cascade_face_hand_detection.cpp
+
+This project demonstrates real-time face detection using OpenCV's pre-trained Haar Cascade classifier. The algorithm captures video from your webcam, processes each frame, and detects faces in the image. Once a face is detected, a green bounding box is drawn around the face to highlight it. The face detection works by converting each frame to grayscale (since the Haar Cascade works on grayscale images) and then applying the detectMultiScale() method to find faces. 
+
