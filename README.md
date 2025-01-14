@@ -95,3 +95,16 @@ Press the **'q'** key to close the webcam window and stop the program.
 ---
 
 Feel free to adjust these instructions according to your specific setup or preferences. If any errors pop up during compilation or execution, don't hesitate to contact me for further assistance.
+
+---
+
+
+# Some Fun Projects 
+
+Inside opencv_fun_projects folder contains some cpp files that serves an educational purpose as follows 
+
+### luma_chroma_channel.cpp
+
+Human eyes are more sensitive to luminance than to chrominance. This project demonstrates how the majority of visual information we care about is contained in the luminance channel (Y) by displaying the Y, Cb, and Cr channels separately alongside the RGB video. This highlights an important principle behind JPEG compression: most of the significant data comes from the luminance channel, which is retained and transformed into Discrete Cosine Transform (DCT) coefficients. Meanwhile, the chrominance channels (Cb and Cr) are often downsampled to reduce the data size, exploiting the fact that the human eye is less sensitive to color differences.
+
+
